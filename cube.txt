@@ -1,0 +1,10 @@
+
+int main()
+{
+    int a,cube;
+    printf("enter a numbers:");
+    scanf("%d",&a);
+    cube=a*a*a;
+    printf("cube is :%d",cube);
+    return 0;
+}

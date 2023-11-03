@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    long double a=1.2282821;  
+    printf("%Lf",a);
+
+    return 0;
+}

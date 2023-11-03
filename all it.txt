@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+int main()
+{
+    float a=1.2282821;  
+    printf("%f",a);
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    long double a=1.2282821;  
+    printf("%Lf",a);
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    char s[]="siyas";  
+    printf("%s",s);
+
+    return 0;
+}
+
+
+
+int main()
+{
+    int a,b,c;
+    printf("enter 2 numbers:");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("sum is :%d",c);
+    return 0;
+}
+
+
+
+int main()
+{
+    int a,cube;
+    printf("enter a numbers:");
+    scanf("%d",&a);
+    cube=a*a*a;
+    printf("cube is :%d",cube);
+    return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+void main()
+{
+    
+    int a=5;
+    a+=3;
+    
+    {
+        printf("%d",a);
+    }
+        
+        
+        
+        
+}
+
+
+
+
+
+#include <stdio.h>
+void main()
+{
+    
+    int a=5;
+    (a==3)?printf("asus"):printf("dell");
+    
+    
+  
+}
